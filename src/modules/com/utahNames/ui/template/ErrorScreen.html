@@ -1,0 +1,9 @@
+<div>
+	<div class="header" data-bind="text: title()"></div>
+	<div class="pageContent">
+		<div class="message" data-bind="text: message()"></div>
+	</div>
+	<div class="footer">
+		<button class="voteButton" data-bind="shoutTap: $root.closeDialogView, text: getString('app.OK')"></button>
+	</div>
+</div>

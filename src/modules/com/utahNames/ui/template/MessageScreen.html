@@ -1,0 +1,17 @@
+<div data-bind="css: {hasClose: closeBtn(), shoutLAF: shoutLAF()}">
+	<div class="header">
+		<div class="vertCenter title" data-bind="text: title()"></div>
+	</div>
+	<div class="pageContent">
+		<div class="message" data-bind="html: message()"></div>
+	</div>
+	<div class="footer" data-bind="css: {'yesNo': yesNo()}">
+		<div class="ok">
+			<button class="voteButton" data-bind="shoutTap: $root.closeDialogView, text: 'OK'"></button>
+		</div>
+		<div class="boolean">
+			<button class="voteButton" data-bind="shoutTap: function(){$root.booleanResponse('YES');}, text: 'Yes'"></button>
+			<button class="voteButton" data-bind="shoutTap: function(){$root.booleanResponse('NO');}, text: 'No'"></button>
+		</div>
+	</div>
+</div>

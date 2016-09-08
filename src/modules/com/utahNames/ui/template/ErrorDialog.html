@@ -1,0 +1,16 @@
+<div>
+    <div class="contentRegion">
+        <div data-bind="html: message" class="message"></div>
+        <div class="dialogFooter">
+            <div class="footerContent footer" data-bind="css: {'yesNo': yesNo()}">
+                <div class="ok">
+					<button class="voteButton" data-bind="shoutTap: $root.okTapped, text: 'OK'"></button>
+				</div>
+				<div class="boolean">
+					<button class="voteButton" data-bind="shoutTap: function(){$root.booleanResponse('YES');}, text: 'YES'"></button>
+					<button class="voteButton" data-bind="shoutTap: function(){$root.booleanResponse('NO');}, text: 'NO'"></button>
+				</div>
+            </div>
+        </div>
+    </div>
+</div>

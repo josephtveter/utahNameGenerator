@@ -1,0 +1,74 @@
+#WideMessageScreen .dialog
+{
+    width: 90%;
+	text-align: center;
+    font-size: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    border-radius: 1rem;
+    background: rgba(0,0,0,.8);
+    color: #fff;
+    border: 0px;
+}
+#WideMessageScreen .scrollWrapper
+{
+    position: relative;
+    max-height: 85%;
+}
+
+#WideMessageScreen li
+{
+    margin-bottom: .5rem;
+}
+
+#WideMessageScreen .message
+{
+    font-size: 1.2em;
+    padding: 1.5rem;
+    padding-bottom: .2rem;
+    color: #fff;
+}
+
+#WideMessageScreen .footerContent
+{
+    text-align: center;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+}
+
+#WideMessageScreen .dialogFooter
+{
+    position: relative;
+}
+
+@media (min-width: 800px)
+{
+	/* When the screens get larger, don't let the dialog get wider than 600 px. */
+    #WideMessageScreen {width: 18rem;}  
+}
+
+#WideMessageScreen button
+{
+    display: inline-block;
+	font-size: 2rem;
+	font-weight: bold;
+    color:#fff;
+    padding: .5rem .8rem;
+}
+
+
+#WideMessageScreen.km-view .km-content
+{
+    background-color: transparent;
+}
+
+#WideMessageScreen .dialogInfo
+{
+    padding: .5rem;
+}
+
+#WideMessageScreen .lineItem
+{
+    padding: .5rem;
+}

@@ -1,0 +1,86 @@
+#MessageScreen.shout-dialog
+{
+    z-index: 200;
+}
+#MessageScreen .dialog 
+{
+    width: 30rem;
+    background-color: #7f1e53;
+    color: #fff;
+    text-align: center;
+    border: .5rem solid #edc234;
+    border-radius: 2rem;
+}
+#MessageScreen input
+{
+    font-size: 1.75rem;
+}
+
+.MyMadrid #MessageScreen .dialog 
+{
+    background-color: #f1f1f2;
+    color: #000;
+    border: .5rem solid #064480;
+}
+#MessageScreen .dialog.hasClose
+{
+	width: 26rem;
+}
+#MessageScreen .boolean
+{
+	display: none;
+}
+
+#MessageScreen .yesNo .boolean
+{
+	display: block;
+}
+
+#MessageScreen .yesNo .ok
+{
+	display: none;
+}
+
+#MessageScreen .message
+{
+    word-wrap: break-word;
+}
+
+#MessageScreen .close
+{
+	position: absolute;
+    padding: 1.2rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    right: 0px;
+}
+
+#MessageScreen .title
+{
+    font-size: 1.5rem;
+}
+#MessageScreen .shoutLAF .title
+{
+    color: #fff;
+    font-weight: 400;
+}
+#MessageScreen .shoutLAF .header
+{
+    background-color: #3b4e6b;
+}
+#MessageScreen .shoutLAF.dialog
+{
+    background-color: #fff;
+    color: #000;
+    border: 0px;
+    border-radius: 1rem;
+}
+#MessageScreen .shoutLAF .voteButton
+{
+    background-color: #3b4e6b;
+}
+
+#MessageScreen .shoutLAF .pageContent
+{
+    font-weight: 400;
+}

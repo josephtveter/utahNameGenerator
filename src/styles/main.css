@@ -1,0 +1,106 @@
+html, body
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+#logDiv
+{
+	display: none;
+}
+
+.shout-view
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.footer
+{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 6rem;
+	text-align: center;
+	font-size: 1.75rem;
+}
+
+.header
+{
+	position: relative;
+	text-align: center;
+	width: 100%;
+	height: 6rem;
+	font-size: 2rem;
+}
+
+.pageContent
+{
+	position: relative;
+	font-size: 1.5rem;
+	padding: 1rem;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.vertCenter
+{
+    position: absolute;
+    display: block;
+    top:50%;
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.horzCenter
+{
+    position: absolute;
+    display: block;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.trueCenter, .dialog
+{
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.shout-dialog
+{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.dialog .header, .dialog .footer
+{
+	position: relative;
+	height: 3rem;
+	text-align: center;
+}
+
+.hideScreen
+{
+	display: none;
+}

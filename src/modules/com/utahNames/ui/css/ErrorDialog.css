@@ -1,0 +1,88 @@
+#ErrorDialog
+{
+    z-index: 200;
+}
+#ErrorDialog .dialog
+{
+    width: 24rem;
+	text-align: center;
+    font-size: 1.75rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    border-radius: 1rem;
+    background: rgba(0,0,0,.8);
+    color: #fff;
+    border: 0px;
+    font-weight: 300;
+}
+
+#ErrorDialog li
+{
+    margin-bottom: .5rem;
+}
+
+#ErrorDialog .message
+{
+    font-size: .9em;
+    padding: 2.5rem;
+    padding-bottom: 1rem;
+    color: #fff;
+}
+
+#ErrorDialog .footerContent
+{
+    text-align: center;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+}
+
+#ErrorDialog .dialogFooter
+{
+    position: relative;
+}
+
+
+#ErrorDialog button
+{
+	font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    padding: .5rem .8rem;
+    display: inline;
+}
+
+
+#ErrorDialog.km-view .km-content
+{
+    background-color: transparent;
+}
+
+#ErrorDialog .dialogInfo
+{
+    padding: .5rem;
+}
+
+#ErrorDialog .lineItem
+{
+    padding: .5rem;
+}
+
+#ErrorDialog .yesNo .boolean
+{
+    display: block;
+}
+
+#ErrorDialog .yesNo .ok
+{
+    display: none;
+}
+
+#ErrorDialog .boolean
+{
+    display: none;
+}
+#ErrorDialog .yesNo .boolean
+{
+    display: block;
+}
